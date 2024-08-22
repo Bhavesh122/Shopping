@@ -8,12 +8,14 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f0f0f0;
+    background: url('https://plus.unsplash.com/premium_photo-1664305032567-2c460e29dec1?q=80&w=3468&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')
+    background-size: cover;
+    color: #333;
 }
 
 /* Header styles */
 header {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
     text-align: center;
     padding: 1em 0;
@@ -32,7 +34,7 @@ header p {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
